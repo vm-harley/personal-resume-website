@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Resume Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Marianne</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <nav id="hamburger-nav">
+      <div class="logo">Marianne</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile.jpg" alt="Profile picture" class="profile-pic" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Marianne Angeli E. Barruela</h1>
+        <p class="section__text__p2">Aspiring UI/UX Designer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/facebook.png"
+            alt="My Facebook profile"
+            class="icon"
+            onclick="location.href='https://facebook.com/Athenaa.11'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/vm-harley'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="text-container">
+            <h4>
+              I am a second-year Information Technology student with a growing interest in UI/UX design. 
+              I enjoy learning how to make websites and apps look good and easy to use. 
+              Although I’m still new to design tools, I’m excited to explore how design can improve the way people use technology. 
+              <br><br>
+              I’m hardworking, eager to learn, and enjoy working with others. 
+              I pay close attention to detail and like finding creative ways to solve problems. 
+              I’m looking forward to gaining more experience and becoming a better designer over time.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h1 class="title">Experience</h1>
+      <div class="details-container">
+        <div class="about-containers">
+              <div class="experience-details-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Personal Resume Website Project</h3>
+                  <br>
+                  <p>Subject Coursework</p>
+                  <p>Remote</p>
+                  <p>April 2025 - Present</p><br>
+                  <ul>
+                    <li>Designed and developed a personal portfolio website to showcase skills and projects,
+                       applying basic UI/UX design principles for optimal user experience
+                        and incorporating interactive elements using JavaScript.</li>
+                        <li>Utilized HTML and CSS to structure content and implement visually appealing layouts.</li>
+                        <li>Focused on website usability, ensuring intuitive navigation and clear presentation of information.</li>
+                  </ul>   
+                  </div>
+                  </article>
+                  <br><br>
+                  <article>
+                  
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Volunteer Web Design Assistant</h3>
+                  <br>
+                  <p>DEVCON Iloilo Chapter</p>
+                  <p>Iloilo City, Philippines</p>
+                  <p>January 2025 - February 2025</p><br>
+                  <ul>
+                  <li>Collaborated with the organization to 
+                      improve the usability and visual design of their existing website.</li>
+                  <li>Proposed and implemented basic design changes
+                           based on website usability best practices.</li>
+                  <li>Gained experience in applying HTML and CSS to modify and enhance website elements.</li>
+                  </ul>   
+                  </div>
+                  </article>
+                  <br><Br>
+                  <article>
+                  
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Project: Interactive Quiz Application</h3>
+                  <br>
+                  <p>Subject Coursework</p>
+                  <p>Remote</p>
+                  <p>November 2024 - December 2024</p><br>
+                  <ul>
+                    <li>Contributed to the development of an interactive quiz application,
+                       gaining experience in both front-end and back-end aspects.</li>
+                        <li>Applied basic UI design principles to create a user-friendly interface for quiz interaction.</li>
+                        <li>Utilized both Java and C# for developing various
+                           components of the application's back-end logic and data management.</li>
+                  </ul>   
+                  </div>
+                  </article>
+            </div>
+      </div>
+      </div>
+      </section>
+
+    <section id="education">
+      <h1 class="title">Education</h1>
+          <div class="education-container-wrapper">
+            <div class="education-details-container">
+              
+              <h3>College</h3>
+              <ul><br>
+              <li><h4>Bachelor of Science in Information Technology</h4></li>
+              <li>Colegio de la Purisima Concepcion</li>
+              <li>Arnaldo Boulevard, Roxas City, Capiz 5800</li>
+              <li>Expected Graduation: 2027</li>
+              </ul>
+            </div>
+            <div class="education-details-container">
+              
+              <h3>Senior High School</h3>
+              <ul><br>
+              <li><h4>University of Perpetual Help System-Pueblo de Panay Campus</h4></li>
+              <li>Sacred Heart of Jesus Avenue, Pueblo de Panay Township, Lawaan, Roxas City, Capiz 5800</li>
+              <li>2020-2022</li>
+              </ul>
+            </div>
+            <div class="education-details-container">
+              
+              <h3>Junior High School</h3>
+              <ul><br>
+              <li><h4>College of St. John-Roxas</h4></li>
+              <li>Gov. Atila Balgos Avenue, Banica, Roxas City, Capiz 5800</li>
+              <li>2016-2020</li>
+              </ul>
+            </div>
+             <div class="education-details-container">
+              
+              <h3>Elementary</h3>
+              <ul><br>
+              <li><h4>Capiz Commercial School</h4></li>
+              <li>Punta Tabuc, Roxas City, Capiz 5800</li>
+              <li>Graduation Date: March 2016</li>
+              </ul>
+            </div>
+          </div>
+          
+        
+      </div>
+    </section>
+
+    <section id="skills">
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skills-sub-title">Design Interests & Emerging Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>UI/UX Design Principles</h3>
+                  <p>Growing Understanding</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Website Usability</h3>
+                  <p>Interest and Eagerness to Learn</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Visual Design</h3>
+                  <p>Developing Interest</p>
+                </div>
+              </article>
+             
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+             <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Databases</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microsoft SQL Server</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQLite</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              </div>
+              </div>
+              <div class="details-container">
+            <h2 class="skills-sub-title">Framework/Libraries</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>.NET Framework</h3>
+                  <p>Growing Understanding</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          </div>
+          </div> 
+    </section>
+
+    <section id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+          <div class="article-container">
+          </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vm-harley/Rosy-Recipes'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://vm-harley.github.io/Rosy-Recipes/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vm-harley/project-II-profile-card'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=' https://vm-harley.github.io/project-II-profile-card/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vm-harley/web-systems-and-technologies.git'"
+              >
+                Github
+              </button>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow up.png"
+        alt="Back to profile"
+        class="icon arrow"
+        onclick="location.href='./#profile'"
+      />
+    </section>
+    <section id="contact">
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:mariannebarruela@gmail.com">Gmail</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/facebook.png"
+            alt="Facebook icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.Facebook.com/Marianne0411">Facebook</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Marianne Angeli E. Barruela. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
